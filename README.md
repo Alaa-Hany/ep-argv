@@ -1,7 +1,7 @@
 # ep-argv
 Easily parse argument options
 
-deal with of arguments Easily  
+deal with  arguments Easily  
 
 
 # examples
