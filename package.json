@@ -1,0 +1,19 @@
+{
+  "name": "ep-argv",
+  "version": "1.0.0",
+  "description": "Easily parse argument options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "argv",
+    "getopt",
+    "parser",
+    "optimist",
+    "arguments",
+    "easily"
+  ],
+  "author": "Alaa Hany <elboray.alaa1@icloud.com>",
+  "license": "MIT"
+}
