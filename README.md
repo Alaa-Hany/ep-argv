@@ -13,7 +13,7 @@ console.log(args);
 ```
 
 ```
-$ node parse1.js -a foo -b boo -efg --tes xman --fof=bob
+$ node example/parse1.js -a foo -b boo -efg --tes xman --fof=bob
 { $ : [], a: 'foo', b: 'boo' , e :'fg' , 'tes' : 'xman' , 'fof' : 'bob' }
 ```
 
@@ -24,8 +24,8 @@ console.log(args);
 ```
 
 ```
-$ node parse.js -x 3  -y 4 -n5 -abc --foofoo=booboo tar zip
-{ _: [ 'tar', 'bar', 'zip' ],
+$ node example/parse1 -x 3  -y 4 -n5 -abc --foofoo=booboo tar zip
+{ $ : [ 'tar', 'bar', 'zip' ],
   x: 3,
   y: 4,
   n: 5,
