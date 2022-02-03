@@ -85,7 +85,6 @@ function parse(argv = [] , mergeSingleFlage = false){
                     continue;
             }
             else if(isValueNext(matched)){
-                console.log(matched)
                     if(isValidNext(argv[x+1])){
                         (matched.single  && (matched.value == undefined)) ? matched.value = true :  matched.value = null;
                         argvParsed[matched.option] = convertArgToPremitive(argv[++x] ?? matched.value) ;
